@@ -1,0 +1,17 @@
+name: NorQu
+main: rpg.kimwig.legends.Main
+version: 1.0
+api-version: 1.17
+author: kimwig
+
+commands: 
+   item: 
+      description: Get any custom items
+      usage: /<command>
+   
+   spawn: 
+      description: Teleports player to spawn
+      usage: /<command>
+      
+   areatp: 
+      description: Teleports player to are
