@@ -14,4 +14,4 @@ commands:
       usage: /<command>
       
    areatp: 
-      description: Teleports player to are
+      description: Teleports player to area

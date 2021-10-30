@@ -5,8 +5,8 @@ import org.bukkit.event.inventory.PrepareItemCraftEvent;
 import org.bukkit.inventory.CraftingInventory;
 import org.bukkit.inventory.ItemStack;
 
-import rpg.kimwig.legends.data.items.Items;
-import rpg.kimwig.legends.data.items.armor.DivineArmor;
+import rpg.kimwig.legends.data.items.Scrolls;
+import rpg.kimwig.legends.data.items.armor.divine.DivineArmor;
 import rpg.kimwig.legends.utils.Utils;
 
 public class PrepareItemCraft {
@@ -47,7 +47,7 @@ public class PrepareItemCraft {
 		
 			// ** Checks contents of workbench
 			if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl1(), 1)) 
-					&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+					&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 					&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 				
 				// ** Sets result
@@ -59,7 +59,7 @@ public class PrepareItemCraft {
 			
 			// ** Checks contents of workbench
 			else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl2(), 1)) 
-					&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+					&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 					&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 				
 				// ** Sets result
@@ -71,7 +71,7 @@ public class PrepareItemCraft {
 			
 			// ** Checks contents of workbench
 			else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl3(), 1)) 
-					&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+					&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 					&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 				
 				// ** Sets result
@@ -83,7 +83,7 @@ public class PrepareItemCraft {
 			
 			// ** Checks contents of workbench
 			else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl4(), 1)) 
-					&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+					&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 					&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 						
 				// ** Sets result
@@ -95,7 +95,7 @@ public class PrepareItemCraft {
 			
 			// ** Checks contents of workbench
 			else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl5(), 1)) 
-					&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+					&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 					&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 						
 				// ** Sets result
@@ -107,7 +107,7 @@ public class PrepareItemCraft {
 			
 			// ** Checks contents of workbench
 			else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl6(), 1)) 
-					&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+					&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 					&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 						
 				// ** Sets result
@@ -119,7 +119,7 @@ public class PrepareItemCraft {
 			
 			// ** Checks contents of workbench
 			else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl7(), 1)) 
-					&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+					&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 					&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 						
 				// ** Sets result
@@ -131,7 +131,7 @@ public class PrepareItemCraft {
 			
 			// ** Checks contents of workbench
 			else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl8(), 1)) 
-					&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+					&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 					&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 						
 				// ** Sets result
@@ -143,7 +143,7 @@ public class PrepareItemCraft {
 			
 			// ** Checks contents of workbench
 			else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl9(), 1)) 
-					&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+					&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 					&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 						
 				// ** Sets result
@@ -171,7 +171,7 @@ public class PrepareItemCraft {
 			
 			// ** Checks contents of workbench
 				if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl1(), 1)) 
-						&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** Sets result
@@ -183,7 +183,7 @@ public class PrepareItemCraft {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl2(), 1)) 
-						&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** Sets result
@@ -195,7 +195,7 @@ public class PrepareItemCraft {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl3(), 1)) 
-						&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** Sets result
@@ -207,7 +207,7 @@ public class PrepareItemCraft {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl4(), 1)) 
-						&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 							
 					// ** Sets result
@@ -219,7 +219,7 @@ public class PrepareItemCraft {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl5(), 1)) 
-						&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 							
 					// ** Sets result
@@ -231,7 +231,7 @@ public class PrepareItemCraft {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl6(), 1)) 
-						&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 							
 					// ** Sets result
@@ -243,7 +243,7 @@ public class PrepareItemCraft {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl7(), 1)) 
-						&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 							
 					// ** Sets result
@@ -255,7 +255,7 @@ public class PrepareItemCraft {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl8(), 1)) 
-						&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 							
 					// ** Sets result
@@ -267,7 +267,7 @@ public class PrepareItemCraft {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl9(), 1)) 
-						&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 							
 					// ** Sets result
@@ -294,7 +294,7 @@ public class PrepareItemCraft {
 				
 				// ** Checks contents of workbench
 					if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl1(), 1)) 
-							&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+							&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 							&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 						
 						// ** Sets result
@@ -306,7 +306,7 @@ public class PrepareItemCraft {
 					
 					// ** Checks contents of workbench
 					else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl2(), 1)) 
-							&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+							&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 							&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 						
 						// ** Sets result
@@ -318,7 +318,7 @@ public class PrepareItemCraft {
 					
 					// ** Checks contents of workbench
 					else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl3(), 1)) 
-							&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+							&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 							&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 						
 						// ** Sets result
@@ -330,7 +330,7 @@ public class PrepareItemCraft {
 					
 					// ** Checks contents of workbench
 					else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl4(), 1)) 
-							&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+							&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 							&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 								
 						// ** Sets result
@@ -342,7 +342,7 @@ public class PrepareItemCraft {
 					
 					// ** Checks contents of workbench
 					else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl5(), 1)) 
-							&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+							&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 							&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 								
 						// ** Sets result
@@ -354,7 +354,7 @@ public class PrepareItemCraft {
 					
 					// ** Checks contents of workbench
 					else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl6(), 1)) 
-							&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+							&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 							&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 								
 						// ** Sets result
@@ -366,7 +366,7 @@ public class PrepareItemCraft {
 					
 					// ** Checks contents of workbench
 					else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl7(), 1)) 
-							&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+							&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 							&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 								
 						// ** Sets result
@@ -378,7 +378,7 @@ public class PrepareItemCraft {
 					
 					// ** Checks contents of workbench
 					else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl8(), 1)) 
-							&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+							&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 							&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 								
 						// ** Sets result
@@ -390,7 +390,7 @@ public class PrepareItemCraft {
 					
 					// ** Checks contents of workbench
 					else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl9(), 1)) 
-							&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+							&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 							&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 								
 						// ** Sets result
@@ -417,7 +417,7 @@ public class PrepareItemCraft {
 					
 					// ** Checks contents of workbench
 						if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl1(), 1)) 
-								&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+								&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 								&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 							
 							// ** Sets result
@@ -429,7 +429,7 @@ public class PrepareItemCraft {
 						
 						// ** Checks contents of workbench
 						else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl2(), 1)) 
-								&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+								&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 								&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 							
 							// ** Sets result
@@ -441,7 +441,7 @@ public class PrepareItemCraft {
 						
 						// ** Checks contents of workbench
 						else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl3(), 1)) 
-								&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+								&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 								&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 							
 							// ** Sets result
@@ -453,7 +453,7 @@ public class PrepareItemCraft {
 						
 						// ** Checks contents of workbench
 						else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl4(), 1)) 
-								&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+								&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 								&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 									
 							// ** Sets result
@@ -465,7 +465,7 @@ public class PrepareItemCraft {
 						
 						// ** Checks contents of workbench
 						else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl5(), 1)) 
-								&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+								&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 								&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 									
 							// ** Sets result
@@ -477,7 +477,7 @@ public class PrepareItemCraft {
 						
 						// ** Checks contents of workbench
 						else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl6(), 1)) 
-								&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+								&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 								&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 									
 							// ** Sets result
@@ -489,7 +489,7 @@ public class PrepareItemCraft {
 						
 						// ** Checks contents of workbench
 						else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl7(), 1)) 
-								&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+								&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 								&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 									
 							// ** Sets result
@@ -501,7 +501,7 @@ public class PrepareItemCraft {
 						
 						// ** Checks contents of workbench
 						else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl8(), 1)) 
-								&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+								&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 								&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 									
 							// ** Sets result
@@ -513,7 +513,7 @@ public class PrepareItemCraft {
 						
 						// ** Checks contents of workbench
 						else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl9(), 1)) 
-								&& (inventory.containsAtLeast(Items.highScroll(), 1) || inventory.containsAtLeast(Items.blessedScroll(), 1)) 
+								&& (inventory.containsAtLeast(Scrolls.highScroll(), 1) || inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) 
 								&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 									
 							// ** Sets result

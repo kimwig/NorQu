@@ -18,8 +18,8 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.FireworkMeta;
 
 import net.md_5.bungee.api.ChatColor;
-import rpg.kimwig.legends.data.items.Items;
-import rpg.kimwig.legends.data.items.armor.DivineArmor;
+import rpg.kimwig.legends.data.items.Scrolls;
+import rpg.kimwig.legends.data.items.armor.divine.DivineArmor;
 import rpg.kimwig.legends.utils.Utils;
 
 public class CraftItem {
@@ -131,7 +131,7 @@ public class CraftItem {
 					
 				// ** Checks contents of workbench
 				if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl1(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 					
 					// ** 100% chance if player is OP
@@ -148,7 +148,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl2) {
@@ -180,7 +180,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl2) {
@@ -218,7 +218,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl2(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 					
 					// ** 100% chance if player is OP
@@ -235,7 +235,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl3) {
@@ -267,7 +267,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl3) {
@@ -305,7 +305,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl3(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 					
 					// ** 100% chance if player is OP
@@ -322,7 +322,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl4) {
@@ -354,7 +354,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl4) {
@@ -392,7 +392,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl4(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 					
 					// ** 100% chance if player is OP
@@ -409,7 +409,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl5) {
@@ -441,7 +441,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl5) {
@@ -479,7 +479,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl5(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 					
 					// ** 100% chance if player is OP
@@ -496,7 +496,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl6) {
@@ -528,7 +528,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl6) {
@@ -566,7 +566,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl6(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 					
 					// ** 100% chance if player is OP
@@ -584,7 +584,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl7) {
@@ -618,7 +618,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl7) {
@@ -658,7 +658,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl7(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 					
 					// ** 100% chance if player is OP
@@ -676,7 +676,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl8) {
@@ -710,7 +710,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl8) {
@@ -750,7 +750,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl8(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 					
 					// ** 100% chance if player is OP
@@ -768,7 +768,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl9) {
@@ -802,7 +802,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl9) {
@@ -842,7 +842,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl9(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 					
 					// ** 100% chance if player is OP
@@ -860,7 +860,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl10) {
@@ -894,7 +894,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl10) {
@@ -934,7 +934,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineHelmetLvl10(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_HELMET)) ) {
 					
 					// ** OP Fail +11
@@ -952,7 +952,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Failed
 						if (randomInt > lvl11) {
@@ -986,7 +986,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Failed
 						if (randomInt > blessedLvl11) {
@@ -1028,7 +1028,7 @@ public class CraftItem {
 					
 				// ** Checks contents of workbench
 				if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl1(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** 100% chance if player is OP
@@ -1045,7 +1045,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl2) {
@@ -1077,7 +1077,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl2) {
@@ -1115,7 +1115,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl2(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** 100% chance if player is OP
@@ -1132,7 +1132,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl3) {
@@ -1164,7 +1164,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl3) {
@@ -1202,7 +1202,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl3(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** 100% chance if player is OP
@@ -1219,7 +1219,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl4) {
@@ -1251,7 +1251,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl4) {
@@ -1289,7 +1289,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl4(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** 100% chance if player is OP
@@ -1306,7 +1306,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl5) {
@@ -1338,7 +1338,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl5) {
@@ -1376,7 +1376,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl5(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** 100% chance if player is OP
@@ -1393,7 +1393,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl6) {
@@ -1425,7 +1425,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl6) {
@@ -1463,7 +1463,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl6(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** 100% chance if player is OP
@@ -1481,7 +1481,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl7) {
@@ -1515,7 +1515,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl7) {
@@ -1555,7 +1555,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl7(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** 100% chance if player is OP
@@ -1573,7 +1573,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl8) {
@@ -1607,7 +1607,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl8) {
@@ -1647,7 +1647,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl8(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** 100% chance if player is OP
@@ -1665,7 +1665,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl9) {
@@ -1699,7 +1699,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl9) {
@@ -1739,7 +1739,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl9(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** 100% chance if player is OP
@@ -1757,7 +1757,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl10) {
@@ -1791,7 +1791,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl10) {
@@ -1831,7 +1831,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePauldronLvl10(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_CHESTPLATE)) ) {
 					
 					// ** OP Fail +11
@@ -1849,7 +1849,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Failed
 						if (randomInt > lvl11) {
@@ -1883,7 +1883,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Failed
 						if (randomInt > blessedLvl11) {
@@ -1925,7 +1925,7 @@ public class CraftItem {
 					
 				// ** Checks contents of workbench
 				if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl1(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -1942,7 +1942,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl2) {
@@ -1974,7 +1974,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl2) {
@@ -2012,7 +2012,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl2(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -2029,7 +2029,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl3) {
@@ -2061,7 +2061,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl3) {
@@ -2099,7 +2099,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl3(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -2116,7 +2116,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl4) {
@@ -2148,7 +2148,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl4) {
@@ -2186,7 +2186,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl4(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -2203,7 +2203,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl5) {
@@ -2235,7 +2235,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl5) {
@@ -2273,7 +2273,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl5(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -2290,7 +2290,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl6) {
@@ -2322,7 +2322,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl6) {
@@ -2360,7 +2360,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl6(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -2378,7 +2378,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl7) {
@@ -2412,7 +2412,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl7) {
@@ -2452,7 +2452,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl7(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -2470,7 +2470,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl8) {
@@ -2504,7 +2504,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl8) {
@@ -2544,7 +2544,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl8(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -2562,7 +2562,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl9) {
@@ -2596,7 +2596,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl9) {
@@ -2636,7 +2636,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl9(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -2654,7 +2654,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl10) {
@@ -2688,7 +2688,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl10) {
@@ -2728,7 +2728,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divinePadsLvl10(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_LEGGINGS)) ) {
 					
 					// ** OP Fail +11
@@ -2746,7 +2746,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Failed
 						if (randomInt > lvl11) {
@@ -2780,7 +2780,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Failed
 						if (randomInt > blessedLvl11) {
@@ -2822,7 +2822,7 @@ public class CraftItem {
 					
 				// ** Checks contents of workbench
 				if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl1(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -2839,7 +2839,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl2) {
@@ -2873,7 +2873,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl2) {
@@ -2911,7 +2911,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl2(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -2928,7 +2928,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl3) {
@@ -2960,7 +2960,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl3) {
@@ -2998,7 +2998,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl3(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -3015,7 +3015,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl4) {
@@ -3047,7 +3047,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl4) {
@@ -3085,7 +3085,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl4(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -3102,7 +3102,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl5) {
@@ -3134,7 +3134,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl5) {
@@ -3172,7 +3172,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl5(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -3189,7 +3189,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl6) {
@@ -3221,7 +3221,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl6) {
@@ -3259,7 +3259,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl6(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -3277,7 +3277,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl7) {
@@ -3311,7 +3311,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl7) {
@@ -3351,7 +3351,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl7(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -3369,7 +3369,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl8) {
@@ -3403,7 +3403,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl8) {
@@ -3443,7 +3443,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl8(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -3461,7 +3461,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl9) {
@@ -3495,7 +3495,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl9) {
@@ -3535,7 +3535,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl9(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 					
 					// ** 100% chance if player is OP
@@ -3553,7 +3553,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > lvl10) {
@@ -3587,7 +3587,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Success
 						if (randomInt > blessedLvl10) {
@@ -3627,7 +3627,7 @@ public class CraftItem {
 				
 				// ** Checks contents of workbench
 				else if ( (inventory.containsAtLeast(DivineArmor.divineBootsLvl10(), 1)) 
-						&& (inventory.containsAtLeast(Items.blessedScroll(), 1) || inventory.containsAtLeast(Items.highScroll(), 1)) 
+						&& (inventory.containsAtLeast(Scrolls.blessedScroll(), 1) || inventory.containsAtLeast(Scrolls.highScroll(), 1)) 
 						&& (inventory.getResult().getType().equals(Material.CHAINMAIL_BOOTS)) ) {
 					
 					// ** OP Fail +11
@@ -3645,7 +3645,7 @@ public class CraftItem {
 					} 
 					
 					// ** High scroll being used
-					else if (inventory.containsAtLeast(Items.highScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.highScroll(), 1)) {
 						
 						// ** Failed
 						if (randomInt > lvl11) {
@@ -3679,7 +3679,7 @@ public class CraftItem {
 					} 
 					
 					// ** Blessed scroll being used
-					else if (inventory.containsAtLeast(Items.blessedScroll(), 1)) {
+					else if (inventory.containsAtLeast(Scrolls.blessedScroll(), 1)) {
 						
 						// ** Failed
 						if (randomInt > blessedLvl11) {

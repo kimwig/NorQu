@@ -6,13 +6,13 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import net.md_5.bungee.api.ChatColor;
-import rpg.kimwig.legends.data.items.Items;
-import rpg.kimwig.legends.data.items.armor.DivineArmor;
-import rpg.kimwig.legends.data.items.armor.dexterity.DexterityBonusShellArmor;
-import rpg.kimwig.legends.data.items.armor.health.HealthBonusShellArmor;
-import rpg.kimwig.legends.data.items.armor.intelligence.IntelligenceBonusShellArmor;
-import rpg.kimwig.legends.data.items.armor.magicpower.MagicPowerBonusShellArmor;
-import rpg.kimwig.legends.data.items.armor.strength.StrengthBonusShellArmor;
+import rpg.kimwig.legends.data.items.Scrolls;
+import rpg.kimwig.legends.data.items.armor.divine.DivineArmor;
+import rpg.kimwig.legends.data.items.armor.shell.DexterityBonusShellArmor;
+import rpg.kimwig.legends.data.items.armor.shell.HealthBonusShellArmor;
+import rpg.kimwig.legends.data.items.armor.shell.IntelligenceBonusShellArmor;
+import rpg.kimwig.legends.data.items.armor.shell.MagicPowerBonusShellArmor;
+import rpg.kimwig.legends.data.items.armor.shell.StrengthBonusShellArmor;
 import rpg.kimwig.legends.utils.Utils;
 
 public class ItemCommands implements CommandExecutor {
@@ -1854,28 +1854,28 @@ public class ItemCommands implements CommandExecutor {
 					
 					// ** Blessed Scroll
 					if (args[0].equalsIgnoreCase("Blessed_Scroll")) {
-						player.getInventory().addItem(Items.blessedScroll());
+						player.getInventory().addItem(Scrolls.blessedScroll());
 						player.sendMessage(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + " > " + ChatColor.RESET + "" + ChatColor.DARK_PURPLE + "Picked up Scroll (Blessed)");
 						return true;
 					}
 					
 					// ** High Scroll
 					if (args[0].equalsIgnoreCase("High_Scroll")) {
-						player.getInventory().addItem(Items.highScroll());
+						player.getInventory().addItem(Scrolls.highScroll());
 						player.sendMessage(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + " > " + ChatColor.RESET + "" + ChatColor.DARK_PURPLE + "Picked up Scroll (High)");
 						return true;
 					}
 					
 					// ** Middle Scroll
 					if (args[0].equalsIgnoreCase("Middle_Scroll")) {
-						player.getInventory().addItem(Items.middleScroll());
+						player.getInventory().addItem(Scrolls.middleScroll());
 						player.sendMessage(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + " > " + ChatColor.RESET + "" + ChatColor.DARK_PURPLE + "Picked up Scroll (Middle)");
 						return true;
 					}
 					
 					// ** Low Scroll
 					if (args[0].equalsIgnoreCase("Low_Scroll")) {
-						player.getInventory().addItem(Items.lowScroll());
+						player.getInventory().addItem(Scrolls.lowScroll());
 						player.sendMessage(ChatColor.DARK_PURPLE + "" + ChatColor.BOLD + " > " + ChatColor.RESET + "" + ChatColor.DARK_PURPLE + "Picked up Scroll (Low)");
 						
 						return true;

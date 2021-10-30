@@ -7,6 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="RPG-LEGENDS"/>
-	<classpathentry kind="lib" path="C:/Users/kimwi/Documents/BuildTools/spigot-1.17.1.jar"/>
+	<classpathentry kind="lib" path="/home/kim/BuildTools/spigot-1.17.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
